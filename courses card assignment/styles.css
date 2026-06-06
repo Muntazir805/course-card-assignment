@@ -1,0 +1,91 @@
+.course-container{
+    width: 90%;
+    margin: 0px auto;
+}
+header{
+    background: linear-gradient(to right, rgb(0, 105, 208), rgba(109, 168, 0, 0.71));
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: white;
+    padding: 4px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+header > h1 {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.course-card-container{
+    display: inline-block;
+    margin: 12px;
+    width: 320px;
+    height: 420px;
+    border: 1px ridge gray;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    padding: 8px;
+}
+
+.course-card-container:hover{
+    box-shadow: 1px 1px 8px gray;
+}
+
+.course-card-container>h2{
+    text-align: center;
+}
+
+.course-card-container>img{
+    width: 300px;
+}
+
+.course-card-container>h3{
+  background: linear-gradient(to right, rgb(0, 105, 208), rgba(2, 18, 246, 0.71));
+  padding: 10px 8px;
+  font-size: 20px;
+  width: 90%;
+  text-align: center;
+  margin: 0px auto;
+  color: white;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+ol>li{
+    padding-left: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.main-container{
+    width: 80%;
+    margin: 0px auto;
+}
+.location-container{
+    display: inline-block;
+    margin: 12px;
+    width: 420px;
+    height: 420px;
+    border: 1px ridge gray;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    padding: 8px;
+}
+
+.location-container:hover{
+    box-shadow: 1px 1px 8px grey;
+}
